@@ -4,12 +4,41 @@
 
 body {
   font: 1em sans-serif;
+}
+
+.main-info {
+  text-align: center;
   color: white;
+  font-weight: normal;
+}
+
+#date {
+  font-size: 32px;
+  margin-bottom: 0px;
 }
 
 #clock {
-  text-align: center;
   font-size: 100px;
+  font-variant: small-caps;
+  margin: 0px;
+  text-decoration: underline 2.5px;
+}
+
+#todo-form {
+  text-align: center;
+}
+
+#todo-form input {
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+
+#todo-form input::placeholder {
+  color: aliceblue;
 }
 
 #quote-container {
