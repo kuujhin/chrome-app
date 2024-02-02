@@ -20,6 +20,3 @@ function onGeoError() {
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOK, onGeoError);
-
-// https://openweathermap.org/ 계정 생성
-// https://api.openweathermap.org/data/2.5/weather?lat=37.6677013&lon=126.7516366&appid=362aef0e30559afdea32122ab0df4bea
