@@ -2,16 +2,44 @@
   display: none;
 }
 
+body {
+  font: 1em sans-serif;
+  color: white;
+}
+
+#clock {
+  text-align: center;
+  font-size: 100px;
+}
+
+#quote-container {
+  position: fixed;
+  bottom: 0%;
+}
+
+#quote {
+  text-align: center;
+  font-style: italic;
+  background-color: black;
+}
+
+#quote span:first-child {
+  font-weight: bolder;
+}
+
+#quote span:last-child {
+  font-weight: lighter;
+}
 
 #bgimg {
-  position:absolute;
-  width:100%;
-  height:100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: 0px;
-  right:0px;
-  bottom:0px;
+  right: 0px;
+  bottom: 0px;
   z-index: -1;
-  opacity:80%;
-  object-fit: cover; 
-  }
+  opacity: 80%;
+  object-fit: cover;
+}
