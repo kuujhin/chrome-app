@@ -7,6 +7,9 @@ body {
   color: white;
 }
 
+#weather {
+  font-size: 20px;
+}
 .main-info {
   margin-top: 10%;
   margin-left: 30%;
