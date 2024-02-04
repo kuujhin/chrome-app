@@ -1,0 +1,43 @@
+#todo-form {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+input::placeholder {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+
+#todo-list {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 40%;
+}
+#todo-list li {
+  margin-top: 10px;
+  font-size: 40px;
+}
+#todo-list button {
+  margin-right: 3%;
+  background-color: transparent;
+  color: white;
+  font-style: unset;
+  font-size: 40px;
+  border: 0;
+}

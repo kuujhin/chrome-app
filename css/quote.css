@@ -1,0 +1,21 @@
+#quote-container {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 80px;
+}
+
+#quote {
+  margin-top: -10px;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+#quote span:first-child {
+  font-weight: bolder;
+}
+
+#quote span:last-child {
+  font-weight: lighter;
+}

@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font: 1em sans-serif;
+  color: white;
+}
+
+.main-info {
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+#date {
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+#clock {
+  font-size: 200px;
+  font-variant: small-caps;
+  margin: 0px;
+  margin-top: -7%;
+  /* text-decoration: underline 5px; */
+}
+#hour {
+  position: relative;
+  left: 7%;
+}
+#minute {
+  position: relative;
+  right: 7%;
+}
+#dot {
+  position: relative;
+  bottom: 20px;
+}
+.hide-dot {
+  opacity: 0;
+}
+
+#greeting {
+  font-size: 50px;
+  font-weight: bold;
+}
