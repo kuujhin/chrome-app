@@ -9,9 +9,13 @@ body {
 }
 
 .main-info {
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: center;
   color: white;
   font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #date {
@@ -37,6 +41,7 @@ body {
   border-right: none;
   border-bottom: 2px solid white;
   background-color: transparent;
+  color: aliceblue;
 }
 
 #todo-form input::placeholder {
@@ -65,7 +70,7 @@ body {
   font-weight: lighter;
 }
 
-#bgimg {
+/* #bgimg {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -76,4 +81,4 @@ body {
   z-index: -1;
   opacity: 80%;
   object-fit: cover;
-}
+} */
