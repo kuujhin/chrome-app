@@ -47,6 +47,14 @@ body {
 }
 
 #greeting {
-  font-size: 50px;
+  font-size: 37px;
   font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+
+#login-form {
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
 }

@@ -13,6 +13,9 @@ input {
   color: aliceblue;
 }
 
+#todo-form input {
+  margin-top: 20px;
+}
 input::placeholder {
   color: aliceblue;
   font-size: 40px;
