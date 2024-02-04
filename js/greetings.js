@@ -17,7 +17,18 @@ function paintGreetings(username) {
   const span = greeting.querySelector("span");
   span.innerText = `Hello ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
+  greeting.addEventListener("submit", logout);
 }
+
+function logout(event) {
+  event.preventDefault();
+  localStorage.removeItem(USERNAME_KEY);
+  loginForm.classList.remove(HIDDEN_CLASSNAME);
+  loginForm.addEventListener("submit", onLoginSubmit);
+  greeting.classList.add(HIDDEN_CLASSNAME);
+  loginInput.value = "";
+}
+
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 if (savedUsername === null) {
