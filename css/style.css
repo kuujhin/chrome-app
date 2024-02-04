@@ -9,7 +9,7 @@ body {
 }
 
 .main-info {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 30%;
   margin-right: 30%;
   text-align: center;
@@ -30,6 +30,19 @@ body {
   text-decoration: underline 2.5px;
 }
 
+#greeting {
+  font-size: 28px;
+  font-weight: bold;
+}
+#greeting span {
+  margin-left: 39%;
+}
+#greeting button {
+  margin-left: 26%;
+  background-color: transparent;
+  color: white;
+  padding: 8px;
+}
 #todo-form {
   text-align: center;
 }
@@ -48,6 +61,14 @@ body {
   color: aliceblue;
 }
 
+#todo-list {
+  text-align: center;
+}
+
+#todo-list button {
+  margin-left: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 #quote-container {
   position: fixed;
   bottom: 0%;

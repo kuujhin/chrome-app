@@ -19,19 +19,21 @@
     <main class="container main-info">
       <h2 id="date">2000. 7.11</h2>
       <h2 id="clock">00:00</h2>
-      <h1 id="greeting" class="hidden"></h1>
+      <form id="greeting" class="hidden">
+        <span></span>
+        <button>Log Out</button>
+      </form>
+
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+      </form>
     </main>
-
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log In" />
-    </form>
-
     <form id="todo-form">
       <input type="text" placeholder="Write a To Do Here" required />
     </form>
